@@ -1,0 +1,95 @@
+
+.icon-chevron-down {
+  background: url("../img/icon/select-chevron-down.svg");
+  width: 16px;
+  height: 8px;
+}
+
+.v-select {
+  width: 100%;
+}
+
+.vs__dropdown-toggle {
+  padding: 0;
+  border: none;
+  background: transparent;
+  align-items: center;
+  white-space: nowrap;
+}
+
+.vs__actions {
+  padding: 0;
+  height: fit-content;
+}
+
+.vs__selected-options {
+  padding: 0;
+  flex-wrap: nowrap;
+}
+
+.vs__search, .vs__search:focus {
+  padding: 0;
+  margin: 0;
+  border: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.vs__selected {
+  padding: 0;
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  font-family: Roboto, sans-serif;
+  color: #0A0A0A;
+  border: none;
+}
+
+.vs__dropdown-menu {
+  margin-top: 13px;
+  background: #FFFFFF;
+  border: 0.5px solid #EBEDF0;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.08), 0 2px 24px rgba(0, 0, 0, 0.08);
+  border-radius: 12px;
+  top: calc(100% + 2px);
+  padding: 15px 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.vs__dropdown-option {
+  max-width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+
+////////////////////////////select base///////////////////////////
+.form-control-base {
+  .vs__dropdown-toggle {
+    padding: 14px 12px;
+    background: #FFFFFF;
+    border: 1px solid #EBEDF0;
+    border-radius: 12px;
+  }
+
+  .v-select input {
+    padding: 0;
+    border: none;
+    border-radius: initial;
+  }
+
+  .vs__dropdown-menu {
+    margin-top: 0;
+  }
+
+  .vs--open .vs__dropdown-toggle {
+    border-color: #2787F5;
+  }
+}
+
+
+@import "media";

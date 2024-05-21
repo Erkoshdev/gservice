@@ -1,0 +1,13 @@
+.dropdown {
+  position: relative;
+}
+
+.dropdown-base {
+  position: relative;
+  cursor: pointer;
+}
+.dropdown-area {
+  position: absolute;
+}
+
+@import "media";

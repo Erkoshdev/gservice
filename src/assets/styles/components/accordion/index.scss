@@ -1,0 +1,83 @@
+
+.accordion-item {
+  padding: 0 0 16px 0;
+  border-bottom: 1px solid #EBEDF0;
+  position: relative;
+  margin-bottom: 24px;
+}
+
+.accordion-item:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.accordion-trigger {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 8px;
+}
+
+.accordion-trigger p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #0A0A0A;
+  max-width: calc(100% - 50px);
+}
+
+.accordion-trigger .icon {
+  background: url("../img/icon/plus-circle.svg");
+  width: 24px;
+  height: 26px;
+  margin-left: auto;
+}
+
+.accordion-trigger.accordion-trigger-active .icon {
+  background: url("../img/icon/minus-circle.svg");
+}
+
+
+.accordion-content p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #6D7885;
+}
+
+.accordion-enter-active, .accordion-leave-active {
+  will-change: height, opacity;
+  transition: height 0.3s ease, opacity 0.3s ease;
+  overflow: hidden;
+}
+
+.accordion-enter, .accordion-leave-to {
+  height: 0 !important;
+  opacity: 0;
+}
+
+.accordion-sm {
+  .accordion-trigger p {
+    font-size: 17px;
+    line-height: 130%;
+  }
+  .accordion-trigger .icon {
+    width: 22px;
+    height: 22px;
+  }
+  .accordion-content p {
+    font-size: 15px;
+    line-height: 130%;
+  }
+  .accordion-item {
+    padding: 0 0 10px 0;
+    margin-bottom: 16px;
+  }
+  .accordion-item:last-child {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+}
+
+@import "media";

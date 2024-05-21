@@ -1,0 +1,36 @@
+.sidebar-nav {
+  margin-top: 16px;
+}
+
+.sidebar-nav-link {
+  display: flex;
+  align-items: center;
+  padding: 12px 8px;
+  border-radius: 12px;
+  min-height: 44px;
+}
+
+.sidebar-nav-link span {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #0A0A0A;
+}
+
+.sidebar-nav-link svg {
+  margin-right: 12px;
+}
+
+.sidebar-nav-link.logout-trigger span {
+  color: #E64646;
+}
+
+.sidebar-nav-link.active {
+  background: #EBEDF0;
+}
+
+@media (hover: hover) {
+  .sidebar-nav-link:not(.logout-trigger):hover {
+    background: #EBEDF0;
+  }
+}

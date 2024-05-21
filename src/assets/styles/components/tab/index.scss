@@ -1,0 +1,34 @@
+.tab {
+  display: flex;
+}
+
+.tab-link {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #6D7885;
+  padding: 8px;
+  border: 0.5px solid #EBEDF0;
+  display: inline-block;
+}
+
+.tab-link.active {
+  border-color: #2787F5;
+  color: #2787F5;
+}
+
+.tab .tab-item:first-of-type .tab-link {
+  border-radius: 8px 0 0 8px;
+}
+
+.tab .tab-item:last-of-type .tab-link {
+  border-radius: 0 8px 8px 0;
+}
+
+
+
+
+
+
+
+@import "media";

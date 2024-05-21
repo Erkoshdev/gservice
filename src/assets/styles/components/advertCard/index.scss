@@ -1,0 +1,32 @@
+.add-service-card {
+  background: #FFFFFF;
+  border-radius: 16px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.add-service-card b {
+  display: block;
+  margin-top: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #0A0A0A;
+}
+
+.add-service-card p {
+  margin-top: 8px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  text-align: center;
+  color: #6D7885;
+}
+
+.add-service-card .btn {
+  width: 100%;
+  margin-top: 16px;
+}

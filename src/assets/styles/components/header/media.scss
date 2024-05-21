@@ -1,0 +1,25 @@
+//desktops
+@media (min-width: 992px) and (max-width: 1050px) {
+
+}
+
+//tablets
+@media (min-width: 768px) and (max-width: 991px) {
+  .nav-menu-row {
+    padding: 25px 0;
+  }
+  .nav-menu-column {
+    width: 170px;
+  }
+  .nav-menu-link {
+    font-size: 17px;
+  }
+  .nav-menu-link + .nav-menu-link {
+    margin-top: 10px;
+  }
+  .app-link img {
+    max-width: 110px;
+  }
+}
+
+

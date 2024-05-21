@@ -1,0 +1,129 @@
+button {
+  cursor: pointer;
+}
+
+.btn-plain {
+  border: none;
+  background: transparent;
+  outline: none;
+  padding: 0;
+  margin: 0;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: fit-content;
+  border-radius: 12px;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  transition: 0.2s ease;
+}
+
+.btn-sm {
+  padding: 8px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.btn-md {
+  padding: 10px 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.btn-lg {
+  padding: 14px 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.btn-warning {
+  background: #FFC107;
+  color: #0A0A0A;
+}
+
+.btn-success {
+  background: #63B9BA;
+  color: #FFFFFF;
+}
+
+.btn-light {
+  background: #FFFFFF;
+  color: #0A0A0A;
+}
+
+.btn-stroke-warning {
+  color: #0A0A0A;
+  border: 1px solid #FFC107;
+  background: transparent;
+}
+
+.btn:disabled {
+  background: #F4F7FF;
+  color: #6D7885;
+  border-color: #6D7885;
+  cursor: default;
+}
+
+.btn.disabled {
+  background: #F4F7FF;
+  color: #6D7885;
+  border-color: #6D7885;
+}
+
+.text-link {
+  background: transparent;
+  border: none;
+  display: block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #6D7885;
+  width: fit-content;
+}
+
+.text-link-blue {
+  background: transparent;
+  border: none;
+  display: block;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+  color: #2787F5;
+  width: fit-content;
+}
+
+
+@media (hover: hover) {
+  .btn-warning:hover {
+    background: #ffb200;
+  }
+  .btn-success:hover {
+    background: #4d9e9e;
+  }
+  .btn-light:hover {
+    background: #d3d4d5;
+  }
+  .btn-stroke-warning:hover {
+    background: #FFC107;
+  }
+  .btn:disabled:hover {
+    background: #F4F7FF;
+    color: #6D7885;
+    border-color: #6D7885;
+    cursor: default;
+  }
+  .btn.disabled:hover {
+    background: #F4F7FF;
+    color: #6D7885;
+    border-color: #6D7885;
+  }
+}
+
+@import "media";
